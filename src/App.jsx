@@ -22,7 +22,7 @@ export default function App() {
   }
 
   useEffect(() => {
-    localStorage.setItem("task", JSON.stringify(tasks));
+    localStorage.setItem("tasks", JSON.stringify(tasks));
   }, [tasks]);
 
   // useEffect(() => {
